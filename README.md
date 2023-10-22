@@ -20,7 +20,7 @@
 
 ### [API Sequence Pattern](https://github.com/martineli17/patterns-sequence/tree/master/sequence_pattern)
 <p>
-  Neste exemplo, a aplicação responsável por implementar o Sequence Pattern, utiliza um Timer para realizar a geração dos tickets previamente. No entanto, existe um endpoint gRPC também para que, caso não existe nenhum ticket disponível naquele momento, um novo é gerado naquele instante.
+  Neste exemplo, a aplicação responsável por implementar o Sequence Pattern, utiliza um Timer para realizar a geração dos tickets previamente. No entanto, existe um endpoint gRPC também para que, caso não tenha nenhum ticket disponível naquele momento, um novo é gerado naquele instante.
 </p>
 <p>
   Ao salvar o novo ticket no banco de dados, existe uma flag para gerenciar se o ticket já foi utilizado ou não. Tal flag é utilizado para veficiar se existe algum disponível no momento e também para retornar um ticket válido para a API solicitante.
@@ -31,7 +31,7 @@
   A outra aplicação Backend realiza a comunicação com a aplicação do Sequence Pattern, solicitando o código do ticket (essa comunicação é feita via gRPC). Quando o ticket é retornado, a aplicação salva os dados no database juntamente com as demais enviadas pelo Frontend.
 </p>
 <p>
-  Com isso, toda a complixibilidade e gerenciamento dos tickets não se torna responsabilidade desta API, dimimuindo também o tempo de geração.
+  Com isso, toda a complixibilidade e gerenciamento dos tickets não se torna responsabilidade desta API, dimimuindo também o tempo do processamento principal.
 </p>  
 
 ### Iniciando as aplicações
