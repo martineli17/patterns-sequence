@@ -4,7 +4,7 @@
   O Sequence Pattern é normalmente utilizado para centralizar a geração de dados em um único local, visando garantir a unicidade.
 </p>
 <p>
-   Além disso, este pattern fica responsável por gerar dados previamente a fim de disponbilizá-los de maneira rápida para algum outro processo que solicitar. Com isso, o processamento final do solicitante se torna mais ágil, pois a responsabilidade de gerar tais informações não se torna sua.
+   Além disso, este pattern fica responsável por gerar dados previamente a fim de disponbilizá-los de maneira rápida para algum outro processo. Com isso, o processamento final do solicitante se torna mais ágil, pois a responsabilidade de gerar tais informações não se torna sua.
 </p>
 
 ## Como usar
