@@ -14,7 +14,7 @@
   <ul>
     <li>Uma aplicação Frontend</li>
     <li>Uma aplicação Backend para servir de comunicação com o Frontend</li>
-    <li>Uma aplicação Backend para servir funcionar como o Sequence, gerando códigos de tickets</li>
+    <li>Uma aplicação Backend para funcionar como o Sequence, gerando códigos de tickets</li>
   </ul>
 </p>
 
