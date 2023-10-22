@@ -10,7 +10,7 @@
 ## Como usar
 
 <p>
-  Neste exemplo, foi criada 03 aplicações:
+  Neste exemplo, foram criada 03 aplicações:
   <ul>
     <li>Uma aplicação Frontend</li>
     <li>Uma aplicação Backend para servir de comunicação com o Frontend</li>
