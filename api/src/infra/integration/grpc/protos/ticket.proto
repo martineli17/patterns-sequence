@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package sequence_pattern;
+
+service TicketService {
+  rpc GetOneCode (TicketEmptyRequest) returns (TicketResponse) {}
+}
+
+message TicketResponse {
+    string code = 1;
+    int32 generatedWay = 2;
+}
+
+message TicketEmptyRequest {
+}

@@ -1,0 +1,47 @@
+.table{
+    width: 100%;
+}
+
+.td {
+    text-align: center;
+    padding: 30px;
+    word-wrap: break-word;
+    max-width: 500px;
+}
+
+.th {
+    text-align: center;
+}
+
+.button {
+    padding: 15px;
+    border-radius: 2px;
+    background-color: gray;
+    border: none;
+    width: 5%;
+    font-weight: 600;
+    float: right;
+    margin: 50px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.content {
+    position: relative;
+}
+
+.buttonRemoveAction {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+}
+
+.buttonRemoveAction:hover {
+    cursor: pointer;
+    background-color: crimson;
+    -webkit-transition: background-color 300ms linear;
+}

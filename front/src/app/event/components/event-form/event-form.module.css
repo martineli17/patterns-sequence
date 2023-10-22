@@ -1,0 +1,55 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section01 {
+    display: flex;
+    flex-direction: row;
+}
+
+.section02 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.input {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.input:focus {
+   outline: none;
+   border:1px solid gray;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.label {
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.button {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    margin-top: 30px;
+    width: 10%;
+    font-weight: 600;
+    
+}
+
+.button:hover {
+    background-color: gray;
+    cursor: pointer;
+    -webkit-transition: background-color 300ms linear;
+}

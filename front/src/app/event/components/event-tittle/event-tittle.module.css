@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.divisor {
+    border-bottom: 1px solid gray;
+    width: 50%;
+}
